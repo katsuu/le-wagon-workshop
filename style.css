@@ -1,0 +1,119 @@
+/* Write some CSS below */
+/*grey #404042 */
+/*blue #1A48E3 */
+/*a hover #CE2FAE*/
+/*btn-blue hover #0D1EC6 */
+
+body {
+	background-color: rgb(230,230,230);
+	font-family: Overpass;
+	color:#404042;
+	margin: 0;
+}
+
+
+h1 {
+	font-family: Chivo;
+/*	color: rgb(250,250,250);
+	font-size: 50px;*/
+}
+
+
+
+
+/*a {
+
+	text-decoration: none;
+	color:#1A48E3 ;
+	font-weight: bold;
+	transition: 0.5s;
+}
+
+a:hover {
+	color:rgb(225,0,112);
+	font-size:24px;
+}*/
+
+/*h3 { 
+  text-align: center;
+  text-align: justify;
+ }*/
+
+
+.banner{
+	background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url('images/background.jpg');
+	background-size: cover;
+	background-position: center;
+	padding:150px 0;
+	text-align: center;
+}
+
+.banner h1{
+	font-size:45px;
+	color:white;
+}
+
+.banner p{
+	font-size:24px;
+	color:rgb(200,200,200)
+}
+
+.btn-blue{
+	background:#1A48E3;
+	color:white;
+	padding:16px 48px;
+	border-radius: 10px;
+	text-decoration: none;
+
+}
+
+.btn-blue:hover{
+	background:#0D1EC6;
+	transition: 0.5s;
+}
+
+
+.container{
+	width:800px;
+	margin: auto;
+	text-align: center;
+}
+
+.card-white {
+	background: white;
+	width:200px;
+	padding: 16px;
+	text-align: center;
+	box-shadow: 0 0 16px rgba(0,0,0,0.1);
+	border-radius:4px;
+	margin: 8px auto;
+}
+
+.card-white img {
+	width:200px;
+	height:200px;
+	object-fit:cover;
+	border-radius:4px;
+}
+
+.card-white h3{
+	margin-bottom:0;
+}
+
+.cards {
+	display:flex;
+	margin-top: 30px;
+	margin-bottom: 30px;
+
+/*	align-items:center;
+	justify-content: space-around;*/
+
+}
+
+.footer{
+	background: #404042;
+	padding: 24px ;
+	text-align: center;
+	color:rgb(100,100,100);
+}
+
